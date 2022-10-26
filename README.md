@@ -12,7 +12,7 @@ ver. 0.1
 ### Features:
 * Works on Godot 3.x with inspiRCD (new !)
 * Checks for a lot of Errors (new !)
-* Receive Whispers (but can't send them =( ) (new !)
+* Receive Whispers  (new !)
 * Display user list (new !)
 * Able to recover from being disconnected (new !)
 * Connect to irc servers
@@ -34,7 +34,7 @@ ver. 0.1
 ## Credits
 
 - Goutte for the idea
-- timocoffee for the protocol's practices
+- timofffee for the protocol's practices
 - Adrenesis for the port on Godot 3.x
 
 
