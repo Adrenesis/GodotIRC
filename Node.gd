@@ -313,7 +313,7 @@ func _on_enterLine_text_entered( text ):
 	var err
 	if whisper_mode:
 		# not working =(
-		err = client.put_data(("/msg " + whisper_username + " " + str(lt.get_text()) +"\n").to_utf8())
+		err = client.put_data(("PRIVMSG " + whisper_username + " '" + str(lt.get_text()) +"'\n").to_utf8())
 		print("/msg " + whisper_username + " " + str(lt.get_text()) +"\n")
 	else:
 		err = client.put_data(("PRIVMSG "+ channel + " :" + str(lt.get_text()) +"\n").to_utf8())
